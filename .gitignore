@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+*.log
+
+# 密钥与配置（绝不提交）
+.env
+config.py
+config_secret.py
+keys.json
+
+# 原始与中间数据（体积大、有使用限制；本地保存，按 data/README.md 重新获取）
+data/raw/
+data/interim/
+data/external/
+*.tif
+*.tiff
+*.img
+*.gpkg-shm
+*.gpkg-wal
+*.zip
+!data/README.md
+!data/sample/**
+!data/sample/
+
+# 输出（可重新生成，不提交）
+outputs/
+figures/
+docs/*.html
+
+# QGIS 临时文件
+*.qgz~
+*.qgs~
+*.qgd~
+.~lock.*
+
+# 系统文件
+Thumbs.db
+.DS_Store

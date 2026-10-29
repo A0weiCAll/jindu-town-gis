@@ -1,0 +1,11 @@
+# GIS 空间分析核心依赖（按需安装，装一个补一行注释）
+geopandas>=0.14        # 矢量空间数据框架
+shapely>=2.0           # 几何运算
+pyproj>=3.6            # 坐标系转换（GCJ02/WGS84/CGCS2000）
+rasterio>=1.3          # 栅格读写（CLCD 用地数据）
+rioxarray              # 栅格 xarray 接口
+osmnx>=1.9             # 路网下载与网络分析
+pandas>=2.0            # 表格数据
+requests               # 高德 API 请求
+folium                 # 网页地图
+jupyterlab             # 交互式开发
